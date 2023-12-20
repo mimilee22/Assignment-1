@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AltSchool Africa Sign Up Form</title>
+</head>
+<body>
+    <nav>
+        <ul style="display: flex; justify-content: center; gap: 100px">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Application Form</h2>
+        <h4>Fill in your details</h4>
+        <form>
+          <div>
+            <div>
+              <section>
+                <div>
+                  <div>
+                    <label for="firstName">First Name</label>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Enter first name" id="firstName" required>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div>
+              <section>
+                <div>
+                  <div>
+                    <label for="lastName">Last Name</label>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Enter last name" id="lastName" required>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="gender">Gender</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="gender" required>
+                    <span>Select gender</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="dob">Date of Birth</label>
+                </div>
+                <div>
+                  <input type="date" placeholder="Select age group" id="dob" required>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="email">Email Address</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="Enter email address" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="educationLevel">Education Level</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="educationLevel" required>
+                    <span>Select level of education</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="countryOfResidence">Country</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="countryOfResidence" required>
+                    <span>Select your country</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="stateCityOfResidence">State/City of Residence</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="Enter your state of residence" id="stateCityOfResidence" required>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="employmentStatus">Employment Status</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="employmentStatus" required>
+                    <span>Select employment status</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="phoneNumber">Phone Number</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="08154387000" id="phoneNumber" pattern="^\d{11}$" title="Please enter a valid 11-digit phone number (e.g., 08154387000)" required>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="schoolId">Choose School</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="schoolId" required>
+                    <span>Select school</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="courseId">Choose Course of Study</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="courseId" required>
+                    <span>Select course</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="hearAboutUs">How did you hear about us?</label>
+                </div>
+                <div>
+                  <div>
+                    <input type="search" id="hearAboutUs" required>
+                    <span>Select channel</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div>
+            <section>
+              <div>
+                <div>
+                  <label for="discountCode">Scholarship/Discount Code (optional)</label>
+                </div>
+                <div>
+                  <input type="text" placeholder="Scholarship or student ID or discount codes" id="discountCode">
+                </div>
+              </div>
+            </section>
+          </div>
+          <h4>By clicking continue, I agree to <a href="https://www.altschoolafrica.com/terms" target="_blank">Terms of Use</a> and acknowledge that I have read the <a href="https://www.altschoolafrica.com/policy" target="_blank">Privacy Policy.</a></h4>
+          <button type="submit">
+            <span>Proceed</span>
+          </button>
+          <p>Already have an account? <a href="/auth/login">Sign In</a></p>
+        </form>
+      </section>
+</body>
+</html>
